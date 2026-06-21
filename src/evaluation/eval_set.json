@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What are the six pillars of the AWS Well-Architected Framework?",
+    "ground_truth": "The six pillars are Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability."
+  },
+  {
+    "question": "What is the purpose of the AWS Well-Architected Framework?",
+    "ground_truth": "The AWS Well-Architected Framework helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for applications and workloads."
+  },
+  {
+    "question": "What does the Security pillar of the Well-Architected Framework focus on?",
+    "ground_truth": "The Security pillar focuses on protecting information and systems, including identity and access management, detection controls, infrastructure protection, data protection, and incident response."
+  },
+  {
+    "question": "What is the Reliability pillar concerned with in the AWS Well-Architected Framework?",
+    "ground_truth": "The Reliability pillar focuses on the ability of a workload to perform its intended function correctly and consistently, covering distributed system design, recovery planning, and handling change."
+  },
+  {
+    "question": "How does the Performance Efficiency pillar define efficient use of resources?",
+    "ground_truth": "The Performance Efficiency pillar focuses on using computing resources efficiently to meet system requirements, and maintaining that efficiency as demand changes and technology evolves."
+  },
+  {
+    "question": "What does Cost Optimization mean in the context of the AWS Well-Architected Framework?",
+    "ground_truth": "Cost Optimization refers to the ability to run systems to deliver business value at the lowest price point, including understanding spending over time, controlling fund allocation, and selecting the right resource types."
+  },
+  {
+    "question": "What is the Sustainability pillar in the AWS Well-Architected Framework?",
+    "ground_truth": "The Sustainability pillar focuses on minimising the environmental impact of running cloud workloads, including increasing resource utilisation and reducing the total resources needed."
+  },
+  {
+    "question": "What are AWS Well-Architected Framework design principles for operational excellence?",
+    "ground_truth": "Operational excellence design principles include performing operations as code, making frequent small reversible changes, refining operations procedures frequently, anticipating failure, and learning from all operational failures."
+  },
+  {
+    "question": "What is an AWS Well-Architected Review?",
+    "ground_truth": "A Well-Architected Review is a structured conversation to identify and fix high-risk issues in a workload by comparing it against AWS architectural best practices using the Well-Architected Framework."
+  },
+  {
+    "question": "What is a High Risk Issue (HRI) in a Well-Architected Review?",
+    "ground_truth": "A High Risk Issue is an architectural concern identified during a Well-Architected Review that represents significant risk to the workload and should be addressed as a priority."
+  },
+  {
+    "question": "What is the recommended approach to identity management under the Security pillar?",
+    "ground_truth": "The Security pillar recommends implementing a strong identity foundation using least-privilege principles, enforcing separation of duties, centralising identity management, and eliminating long-term static credentials."
+  },
+  {
+    "question": "What programming language was the Python programming language named after?",
+    "ground_truth": "Out of scope — this question is unrelated to AWS documentation and should be refused."
+  }
+]

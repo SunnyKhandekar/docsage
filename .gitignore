@@ -1,0 +1,37 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment / secrets — NEVER commit these
+.env
+
+# Raw PDFs — often large; download them yourself from AWS docs
+data/raw/*.pdf
+
+# NOTE: data/processed/ is intentionally NOT excluded.
+# The Chroma DB and BM25 index must be committed so the HF Spaces deployment
+# has a pre-built index. Recruiters testing the live demo won't run build_index.py.
+# This is the opposite of the usual advice — it's a deliberate tradeoff for a demo.
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Jupyter notebooks (if used for exploration)
+.ipynb_checkpoints/
+*.ipynb
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage

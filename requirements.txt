@@ -1,0 +1,46 @@
+# DocSage dependencies
+# Install with: pip install -r requirements.txt
+#
+# NOTE: The ragas/langchain ecosystem moves fast. If you see import errors
+# related to langchain_community, pin versions as described in SETUP_AND_RUN.md.
+# For the most stable combination, check: https://github.com/explodinggradients/ragas
+
+# PDF parsing
+pymupdf>=1.23.0
+pdfplumber>=0.10.0
+
+# Embeddings and reranking (downloads PyTorch — takes a few minutes)
+sentence-transformers>=2.7.0
+
+# Vector database
+chromadb>=0.5.0
+
+# Keyword search
+rank-bm25>=0.2.2
+
+# Groq LLM API
+groq>=0.8.0
+
+# LangChain / LangGraph agent
+langchain-core>=0.2.0
+langchain-groq>=0.1.6
+langgraph>=0.1.0
+
+# MCP (Model Context Protocol)
+mcp>=1.0.0
+fastmcp>=0.1.0
+
+# Evaluation
+ragas>=0.1.0
+datasets>=2.19.0
+
+# REST API
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+
+# Frontend
+streamlit>=1.35.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
